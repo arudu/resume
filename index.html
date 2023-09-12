@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Resume</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<header>
+<ul class="nav">
+	<li class="home-nav">Home</li>
+	<li class="contact-nav"><a href="contact.html">Contact</a></li>
+	<li class="workxp-nav"><a href="#workxp" onclick="scrollToSection('workxp')">Work Experience</a></li>
+	<li class="workxp-nav"><a href="#skill&cert" onclick="scrollToSection('skill&cert')">Skills And Certs</a></li>
+</header> 
+<body>
+<button id="back-to-top-button"><img src="button.png" alt="back-button" width="20px"></img></button>
+<div class="top">
+<img class="profile-pic" src="profilepix.jpg" width="100px" height="150px"></img>
+<h1>Paul Janne</h1>
+<h2><a href="https://technlifetips.com">My Site: technlifetips.com</a></h2>
+<h2><a href="https://github.com/arudu">My Github: github/arudu</a></h2>
+<h2><a href="https://superlative-treacle-563a61.netlify.app">My Portfolio</a></h2>
+</div>
+<div class="summary">
+<hr class="divider-middle">
+<h1>Summary</h1>
+<p>
+I am a reliable, hardworking, and 
+fast learning individual that is looking to transition into a new career in IT. 
+I’m confident that I can transfer my customer service, 
+work ethic and managerial skills over to a new career. 
+I started learning programming a few years ago and fell in love with the process 
+and am a non-stop learner,
+ I have built a lot of programs and projects that are linked below.
+</p>
+</div>
+<div class="work-exp" id="workxp">
+<hr class="divider-middle2">
+<h1>Work Experience</h1>
+<h3><i>IBS Of Annapolis, Glen Burnie, MD</i></h3>
+<ul>
+	<li>Dates: 07/2010 - 08/2023</li>
+	<li>Position: Asst. Warehouse Manager/Warranty Admin.</li>
+</ul>
+<ul class="job-des">
+	<li>Trained and directed a team of employees</li>
+	<li>Handled inventory control</li>
+	<li>In charge of the battery buy back system</li>
+	<li>Customer service</li>
+	<li>Responsible for setting up and monitoring battery charging equipment</li>
+</ul>
+<h3><i>Berkel well drilling, Curtis Bay, MD</i></h3>
+<ul>
+	<li>Dates: 03/2009 - 07/2010</li>
+	<li>Position: Laborer, Technician</li>
+</ul>
+<ul class="job-des">
+	<li>In charge of cleaning and maintenance on machines</li>
+	<li>Repairing and replacing O-rings on pneumatic air machines</li>
+</ul>
+</div>
+<hr class="divider-lower1">
+<div class="skills-and-certs" id="skill&cert">
+<div class="skillz">
+<h1>Skills</h1>
+<ul>
+	<li>Python</li>
+	<li>HTML/CSS</li>
+	<li>Javascript</li>
+	<li>PHP</li>
+	<li>Docker</li>
+	<li>AWS</li>
+</ul>
+</div>
+<div class="side-divider"></div>
+<div class="certz">
+<h1>Certifications</h1>
+<ul>
+        <li><img src="google-cyber.png" alt="google-cyber" width="100px" height="100px"></img>Google Cybersecurity Certification</li>
+        
+</ul>
+</div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+body {
+	background-color: #7f5a83;
+	background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: xx-large;
+}
+
+.home-nav:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.contact-nav:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.summary-nav:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.workxp-nav:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.profile-pic {
+	border-style: solid;
+    	border-width: 2px;
+    	border-color: black;
+        border-radius: 20px;
+}
+
+.top {
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.divider-top {
+	width: 50rem;
+	height: 2px;
+	background-color: #7f5a83;
+}
+
+ul {
+	list-style: none;
+}
+
+.divider-middle {
+	width: 50rem;
+	height: 2px;
+	background-color: #7f5a83;
+}
+
+.summary {
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+p {
+	width: 50rem;
+}
+
+.divider-middle2 {
+	width: 50rem;
+	height: 2px;
+	background-color: #7f5a83;
+}
+
+.job-des {
+	list-style: inside;
+}
+
+.work-exp {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.side-divider {
+	width: 2px;
+	height: 20rem;
+	border-style: solid;
+	border-color: white;
+	border-width: thin;
+	background-color: #7f5a83;
+}
+
+.contact-page-title {
+	display: flex;
+	justify-content: center;
+}
+
+.skills-and-certs {
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 10rem;
+}
+
+.divider-lower1 {
+	width: 50rem;
+        height: 2px;
+        background-color: #7f5a83;
+}
+
+.skillz {
+	display: flex;
+	flex-direction: column;
+}
+
+.certz {
+	display: flex;
+	flex-direction: column;
+	margin-right: 5rem;
+}
+
+#back-to-top-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
