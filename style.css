@@ -20,6 +20,31 @@ a {
 	cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .profile-pic {
+        max-width: 80%;
+    }
+
+    .divider-top,
+    .divider-middle,
+    .divider-middle2,
+    .divider-lower1 {
+        width: 80%;
+    }
+
+    .side-divider {
+        height: 10rem;
+    }
+
+    #back-to-top-button {
+        bottom: 10px;
+        right: 10px;
+    }
+}
 .contact-nav:hover {
 	text-decoration: underline;
 	cursor: pointer;
